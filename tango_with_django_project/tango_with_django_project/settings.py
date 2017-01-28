@@ -30,6 +30,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+TIME_ZONE = 'America/Chicago'
 
 # Application definition
 
