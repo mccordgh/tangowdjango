@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+
+	<head>
+		<title>Rango</title>
+		<link rel="stylesheet" href='{% static "styles/styles.css" %}' />
+	</head>
+
+	<body>
+
+		<h1>About us...</h1>
+
+		<div>
+			This tutorial has been put together by Matthew McCord. <br />
+			<strong>{{ about_message }}</strong><br />
+		</div>
+
+		<div>
+			<a href="/rango/">Index</a><br />
+			<img src='{% static "images/burrito_cat.jpg" %}' alt='a burrito cat' />
+		</div>
+
+	</body>
+
+</html>
