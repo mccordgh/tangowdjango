@@ -15,7 +15,19 @@
 
 		<div>
 			hey there partner! <br />
-			<strong>{{ boldmessage }}</strong><br />
+		</div>
+
+		<div>
+			<h2>Top 5 popular categories by likes...</h2>
+			{% if categories %}
+				<ul>
+					{% for category in categories %}
+						<li>{{ category.name }} - {{ category.likes }} likes</li>
+					{% endfor %}
+				</ul>
+			{% else %}
+				<strong>There are no categories present.</strong>
+			{% endif %}
 		</div>
 
 		<div>

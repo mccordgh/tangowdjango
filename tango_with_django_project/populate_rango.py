@@ -53,6 +53,6 @@ def add_cat(name, views, likes):
     return c
 
 if __name__ == '__main__':
-    print("Starting Rango population script...\n")
+    print("\nStarting Rango population script...\n")
     populate()
     print("\n...Finished Rango population script.")
